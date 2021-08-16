@@ -15,6 +15,7 @@ local function setup_commands()
   -- Lists
   utils.command("FlutterDevices", [[lua require('flutter-tools.devices').list_devices()]])
   utils.command("FlutterEmulators", [[lua require('flutter-tools.devices').list_emulators()]])
+  utils.command("FlutterRunConfigurations", [[lua require('flutter-tools.run_configurations').list_run_configs()]])
   --- Outline
   utils.command("FlutterOutlineOpen", [[lua require('flutter-tools.outline').open()]])
   utils.command("FlutterOutlineToggle", [[lua require('flutter-tools.outline').toggle()]])

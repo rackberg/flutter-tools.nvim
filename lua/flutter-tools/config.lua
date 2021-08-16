@@ -83,6 +83,12 @@ local defaults = {
     autostart = false,
     auto_open_browser = false,
   },
+  run_configs = {
+    {
+      name = "My first run configuration",
+      args = nil,
+    }
+  },
 }
 
 local deprecations = {
